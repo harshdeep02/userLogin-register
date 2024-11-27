@@ -1,0 +1,34 @@
+tbody tr:nth-child(odd) {
+    background-color: #a8ffe2;
+  }
+  tbody tr{
+    background-color: #9b8f8f75;
+  }
+  thead tr{
+    background-color: #9b8f8f75;
+  }
+  table {
+    width: 1000px;
+    text-align:center
+}
+
+.userDet span{
+    color: red;
+    font-weight: 600;
+
+}
+.userDet{
+    margin: 10px 0;
+    padding: 10px 0;
+}
+
+button.logOutMain {
+    display: flex;
+    position: absolute;
+    top: 10px;
+    right: 160px;
+    align-items: center;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #1dbbcd, #075063);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-container, .regs-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .login-box, .regs-box {
+    background: #283041;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    width: 320px;
+    text-align: center;
+    position: relative;
+  }
+  
+  /* Logo Styling */
+  .logo img {
+    width: 120px;
+    margin-bottom: 15px;
+  }
+  
+  /* Sign-In Header */
+  .login-header, .regs-header {
+    background-color: #1dd5da;
+    padding: 13px;
+    color: #000;
+    font-size: 18px;
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 15px;
+  }
+  
+  /* Avatar Styling */
+  .avatar {
+    margin: 15px auto;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #3b4554;
+  }
+  
+  .avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .input-field {
+    margin: 10px 0;
+  }
+  
+  .input-field input {
+    width: 100%;
+    padding: 9px;
+    border-radius: 5px;
+    border: none;
+    background: #3b4554;
+    color: white;
+  }
+  
+  .input-field input::placeholder {
+    color: #aaa;
+  }
+  
+  .options {
+    padding: 6px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    color: #aaa;
+  }
+  
+  .options a {
+    text-decoration: none;
+    color: #1dd5da;
+  }
+  
+  .login-button, .regs-button {
+    margin-top: 10px;
+    background-color: #1dd5da;
+    color: #000;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-button:hover, .regs-button:hover {
+    background-color: #17a8ac;
+  }
+
+  .fa-2xl.userIcon {
+    padding-top: 14px;
+    font-size: 3rem;
+    line-height: 1;
+    vertical-align: 0;
+}
+
+.alreadyAccount{
+    color:#fff;
+    font-size: 14px;
+    padding-top: 10px;
+}
+.alreadyAccount a{
+    color:#1dd5da ;
+}
+
+.error{
+    padding: 3px 0;
+  color: red;
+  font-size: 13px;
+}
+
+.spinner.loginSpinner {}
+.spinner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 88px;
+  /* margin-top: 100px; */
+}
+.spinner.loginSpinner {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  z-index: 1;
+  /* margin-top: 159px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.spinner.loginSpinner img {
+    height: 100%;
+    filter: invert(1);
+}
